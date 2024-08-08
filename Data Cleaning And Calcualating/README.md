@@ -29,7 +29,10 @@ matplotlib.pyplot
 seaborn 
 ## Những hiểu biết chính được khám phá:
 Mối tương quan yếu: Nhìn chung, các biến không có mối tương quan mạnh với nhau. Giá trị tương quan tuyệt đối lớn nhất là 0.57 giữa SignupDate và LastPurchaseDate, cho thấy mối tương quan dương vừa phải. Điều này có nghĩa là khách hàng đăng ký sớm hơn có xu hướng mua hàng lần cuối sớm hơn.
+
 Không có tương quan tuyến tính: Các giá trị tương quan khác đều rất gần 0, cho thấy không có mối tương quan tuyến tính đáng kể giữa các biến còn lại. Ví dụ, số tiền mua hàng (PurchaseAmount) không liên quan nhiều đến điểm trung thành (LoyaltyPoints), ngày đăng ký (SignupDate), hoặc ngày mua hàng cuối cùng (LastPurchaseDate).
 ## Đề Nghị
+
 Khuyến mãi: Do không có mối tương quan giữa điểm trung thành và số tiền mua hàng, có thể cần xem xét lại hiệu quả của chương trình khách hàng thân thiết hoặc điều chỉnh chính sách khuyến mãi.
+
 Chăm sóc khách hàng: Do không có mối tương quan giữa ngày đăng ký và số tiền mua hàng, có thể cần tập trung vào việc chăm sóc khách hàng mới và khách hàng cũ để tăng giá trị mua hàng trung bình.
